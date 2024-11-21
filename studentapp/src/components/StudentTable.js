@@ -1,10 +1,10 @@
-import '../assests/css/compo.css'
+import '../assests/css/compo.css';
 
 export default function StudentTable(props){
     return(
 
-        <div classname=".outerDiv">
-            <div classname=".leftDiv">
+        <div className=".outerDiv">
+            <div className=".leftDiv">
                 <table>
                     <thead>
                         <tr>
@@ -17,7 +17,7 @@ export default function StudentTable(props){
                 </table>
             </div>
         </div>
-    )
+    );
         
     
 }
