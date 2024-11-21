@@ -11,7 +11,7 @@ function App() {
 
       <hr></hr>
 
-      <table>
+      <table width="100%">
         <tbody>
           <tr>
                <td>
