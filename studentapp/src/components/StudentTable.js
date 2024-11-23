@@ -1,10 +1,9 @@
 import '../assests/css/compo.css';
-import Profile from './Profile';
 import {useState} from 'react';
-
+import Profile from './Profile';
 export default function StudentTable(props){
 
-    const {stu,setstu}=useState(props.students[0]);
+   // const {stu,setstu}=useState(props.students[0]);
 
     return(
 
@@ -29,7 +28,7 @@ export default function StudentTable(props){
                                     <td>{student.lastName}</td>
                                     <td>{student.course}</td>
                                     <td>{student.address.country}</td>
-                                    <td><button onClick={()=>{setstu(student)}}>View</button></td>
+                                  {/* <td><button onClick={()=>{setstu(student)}}>View</button></td>*/}  
                                 </tr>
                             )
                         }
@@ -38,7 +37,7 @@ export default function StudentTable(props){
             </div>
 
             <div className="rightDiv">
-              <Profile student={stu}/>
+             {/* <Profile student={stu}/>*/}
             </div>
         </div>
     );
