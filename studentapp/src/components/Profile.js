@@ -10,7 +10,7 @@ export default function Profile(props){
                <td>ID {props.stu.studentId}</td>
            </tr>
            <tr>
-               <td>fullName:{props.stu.firstName +""}</td>
+               <td>fullName:{props.stu.firstName+" "+props.stu.lastName}</td>
            </tr>
            <tr>
                <td>Age:{props.stu.age}</td>
